@@ -1,0 +1,14 @@
+{
+  "postgresDs": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "team_management",
+    "username": "postgres",
+    "password": "1234",
+    "name": "postgresDs",
+    "connector": "postgresql"
+  }
+}
+
+
+

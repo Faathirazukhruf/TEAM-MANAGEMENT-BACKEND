@@ -1,0 +1,24 @@
+{
+  "name": "Member",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "team_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "relations": {
+    "team": {
+      "type": "belongsTo",
+      "model": "team",
+      "foreignKey": "teamId"
+    }
+  }
+}
